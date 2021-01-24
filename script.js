@@ -17,7 +17,7 @@ button.onclick = function () {
     span.innerText = temp;
     newButton.innerText = "Delete";
     ul.append(li);
-
+    newButton.setAttribute('class', 'newBtn');
     newButton.onclick = function () {
         ul.removeChild(li);
     };
